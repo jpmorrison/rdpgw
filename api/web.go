@@ -148,9 +148,15 @@ func (c *Config) HandleDownload(w http.ResponseWriter, r *http.Request) {
 	userName, ok := ctx.Value("preferred_username").(string)
 
 	if !ok {
+
+//	FIXME: the client (mstsc, freerdp) may send the username in base64 UTF16LE (maybe UTF8?)
+//	RDG-User-Id: bgBvAHQAcwBlAHQA
+
+		userName = "notset"  
 		log.Printf("preferred_username not found in context")
-		http.Error(w, errors.New("cannot find session or user").Error(), http.StatusInternalServerError)
-		return
+		log.Printf("setting userName to %s for testing", userName)
+//		http.Error(w, errors.New("cannot find session or user").Error(), http.StatusInternalServerError)
+//		return
 	}
 
 	// do a round robin selection for now

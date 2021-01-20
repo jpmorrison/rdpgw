@@ -93,7 +93,7 @@ func VerifyServerFunc(ctx context.Context, host string) (bool, error) {
 
 	if s.RemoteServer != host {
 		log.Printf("Client specified host %s does not match token host %s", host, s.RemoteServer)
-		return false, nil
+//		return false, nil   // FIXME: if we're not using tokens, don't exit here
 	}
 
 	if VerifyClientIP && s.ClientIp != common.GetClientIp(ctx) {

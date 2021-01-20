@@ -90,7 +90,8 @@ func (s *Server) Process(ctx context.Context) error {
 			if s.VerifyTunnelCreate != nil {
 				if ok, _ := s.VerifyTunnelCreate(ctx, cookie); !ok {
 					log.Printf("Invalid PAA cookie received from client %s", common.GetClientIp(ctx))
-					return errors.New("invalid PAA cookie")
+// FIXME: don't return if not using PAA 
+//					return errors.New("invalid PAA cookie")
 				}
 			}
 			msg := s.tunnelResponse()
