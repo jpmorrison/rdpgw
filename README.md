@@ -1,6 +1,8 @@
 GO Remote Desktop Gateway
 =========================
 
+Note: This fork of rdpgw has a few quick fixes to get mstsc working with RD Gateway server settings. [RDPweb](https://docs.microsoft.com/en-us/windows-server/remote/remote-desktop-services/clients/remote-desktop-web-client-admin) and similar websocket RDP clients may work too. The [FreeRDP](https://github.com/FreeRDP/FreeRDP) client does not use websockets and I have not been able to get it to work. 
+
 ![Go](https://github.com/bolkedebruin/rdpgw/workflows/Go/badge.svg)
 
 :star: Star us on GitHub — it helps!
