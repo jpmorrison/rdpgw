@@ -1,0 +1,84 @@
+{
+  "packages": [
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.0",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2mzyl"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.1",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2GZVl"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.7",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWqugD"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.11",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.0",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RWtuPi"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.18.0",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.2",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2TVcR"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.20.0",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.2",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3Mt1C"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.21.0",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.2",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE45gv4"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.22.0",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.2",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4EtDt"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.23.0",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.2",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4HSKT"
+    },
+    {
+        "packageId": "rd-html5",
+        "version": "1.0.24.0",
+        "author": "Microsoft",
+        "summary": "The Remote Desktop Web Client",
+        "minRDWebClientManagementVersion": "1.0.2",
+        "url": "https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4LTEc"
+    }
+  ]
+}
